@@ -3060,19 +3060,19 @@ def bot(op):
                    msg.contentType = 13
                    fams1 = "u8e137cf39c2ac9c2edc77f13ed54802c"
                    fams2 = "u54b576051eb45e797ed1f806dd9e1842"
-	       fams3 = "u3c8dd4869088bac2fda271748636aef6"
+	         fams3 = "u3c8dd4869088bac2fda271748636aef6"
                    fams4 = "uc23b845bba3d0c019255a956c74efb60"
                    fams5 = "ucec030bce3ab475e3920e1e763ad14aa"
                    fams6 = "uf41f0195d94a4775e3c476bd1c36cb90"
-	       fams7 = "u5cab77f6759997a250f935e9cbb6e959"
-	       fams8 = "ue080f4ed31d1dfd53660656341cd29a6"
+	         fams7 = "u5cab77f6759997a250f935e9cbb6e959"
+	         fams8 = "ue080f4ed31d1dfd53660656341cd29a6"
                    msg.contentMetadata = {'mid': Jams}
                    random.choice(KAC).sendMessage(msg)
                    msg.contentMetadata = {'mid': fams1}
                    random.choice(KAC).sendMessage(msg)
                    msg.contentMetadata = {'mid': fams2}
                    random.choice(KAC).sendMessage(msg)
-	       msg.contentMetadata = {'mid': fams3}
+	         msg.contentMetadata = {'mid': fams3}
                    random.choice(KAC).sendMessage(msg)
                    msg.contentMetadata = {'mid': fams4}
                    random.choice(KAC).sendMessage(msg)
@@ -3084,7 +3084,7 @@ def bot(op):
                    random.choice(KAC).sendMessage(msg)
                    msg.contentMetadata = {'mid': fams8}
                    random.choice(KAC).sendMessage(msg)
-	       random.choice(KAC).sendText(msg.to,"♐LOE SONGONG BERARTI LOE SIAP ANCUR🖕🖕")
+	         random.choice(KAC).sendText(msg.to,"♐LOE SONGONG BERARTI LOE SIAP ANCUR🖕🖕")
 		
             elif "apakah " in msg.text:
                 apk = msg.text.replace("apakah ","")

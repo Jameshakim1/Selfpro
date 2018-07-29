@@ -20,213 +20,189 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 
-selfMessage ="""
-╔═匚◯爪爪丹几刀 ちモし下 ══
-╠══════════════
-┣⏩〔Hi〕
-┣⏩〔Me〕
-┣⏩〔Mymid〕
-┣⏩〔Mid @〕
-┣⏩〔SearchID〕
-┣⏩〔Checkdate 〕
-┣⏩〔Kalender〕
-┣⏩〔Steal contact〕
-┣⏩〔Pp @〕
-┣⏩〔Cover @〕
-┣⏩〔Auto like〕
-┣⏩〔Scbc Text〕
-┣⏩〔Cbc Text〕
-┣⏩〔Gbc Text〕
-┣⏩〔Bio @〕
-┣⏩〔Info @〕
-┣⏩〔Name @〕
-┣⏩〔Profile @〕
-┣⏩〔Contact @〕
-┣⏩〔Getvid @〕
-┣⏩〔Friendlist〕
-┣⏩〔Micadd @〕
-┣⏩〔Micdel @〕
-┣⏩〔Miclist〕
-╠═════════════════
-║      By :  丅モ丹爪 Ｊ丹爪ち 
-╚═════════════════"""
+selfMessage ="""   COMMAND SELF
+≪━─━─◈─━─━≫
+✐〔Hi〕
+✐〔Me〕
+✐〔Mymid〕
+✐〔Mid @〕
+✐〔ID idline〕
+✐〔Checkdate 〕
+✐〔Kalender〕
+✐〔Steal contact〕
+✐〔Pp @〕
+✐〔Cover @〕
+✐〔Scbc Text〕
+✐〔Cbc Text〕
+✐〔Gbc Text〕
+✐〔Bio @〕
+✐〔Info @〕
+✐〔Name @〕
+✐〔Profile @〕
+✐〔Contact @〕
+✐〔Getvid @〕
+✐〔Friendlist〕
+✐〔Micadd @〕
+✐〔Micdel @〕
+✐〔Miclist〕
+❦ ═══ •⊰❂⊱• ═══ ❦"""
 
-botMessage ="""
-╔═匚◯爪爪丹几刀 阝◯丅 ══
-╠══════════════
-┣⏩〔Absen〕
-┣⏩〔Respon〕
-┣⏩〔Runtime〕
-┣⏩〔copy @〕
-┣⏩〔Copycontact〕
-┣⏩〔Mybackup〕
-┣⏩〔Mybio 〔Teks〕
-┣⏩〔Myname〔Teks〕
-┣⏩〔@bye〕
-┣⏩〔Bot on/off〕
-╠═══════════════
-║      By : 丅モ丹爪 Ｊ丹爪ち 
-╚═══════════════"""
+botMessage ="""   COMMAND BOTS
+≪━─━─◈─━─━≫
+✐〔Absen〕
+✐〔Respon〕
+✐〔Runtime〕
+✐〔copy @〕
+✐〔Copycontact〕
+✐〔Mybackup〕
+✐〔Mybio 〔Teks〕
+✐〔Myname〔Teks〕
+✐〔@bye〕
+✐〔Bot on/off〕
+❦ ═══ •⊰❂⊱• ═══ ❦"""
 
-mediaMessage ="""
-╔═爪モ刀工丹═══════
-╠═════════════
-┣⏩〔Youtube J 〕
-┣⏩〔Youtubevideo J〕
-┣⏩〔Smule: Teks〕
-┣⏩〔Youtubesearch:0 J〕
-┣⏩〔Image NamaGambar〕
-┣⏩〔Say T〕
-┣⏩〔Say-en T〕
-┣⏩〔Say-jp T〕
-┣⏩〔Tr-id T 〔 En  ID〕
-┣⏩〔Tr-en T 〔ID  En〕
-┣⏩〔Tr-th T 〔ID Th〕
-┣⏩〔Id@en T 〔ID En〕
-┣⏩〔Id@th T 〔ID TH〕
-┣⏩〔En@id T 〔 En  ID〕
-┣⏩〔Gift〕
-┣⏩〔Giftbycontact〕
-┣⏩〔Gif gore〕
-┣⏩〔Google 〔T〕
-┣⏩〔Playstore NamaApp〕
-┣⏩〔Fancytext T〕
-┣⏩〔musik J-Penyanyi〕
-┣⏩〔lirik J-Penyanyi〕
-┣⏩〔musrik J-Penyanyi〕
-┣⏩〔ig 〔UsrNameIG〕
-┣⏩〔Checkig 〔UsrIG〕
-┣⏩〔apakah 〔T〕
-┣⏩〔kapan 〔T〕
-┣⏩〔hari 〔T 〕
-┣⏩〔berapa〔 T 〕
-┣⏩〔berapakah 〔T〕
-╠══════════════
-║      By : 丅モ丹爪 Ｊ丹爪ち 
-╚══════════════"""
+mediaMessage ="""   MEDIA
+≪━─━─◈─━─━≫
+✐〔Youtube J 〕
+✐〔Youtubevideo J〕
+✐〔Smule: Teks〕
+✐〔Youtubesearch: J〕
+✐〔Image NamaGambar〕
+✐〔Say T〕
+✐〔Say-en T〕
+✐〔Say-jp T〕
+✐〔Tr-id T 〔 En ID〕
+✐〔Tr-en T 〔ID En〕
+✐〔Tr-th T 〔ID Th〕
+✐〔Id@en T 〔ID En〕
+✐〔Id@th T 〔ID TH〕
+✐〔En@id T 〔 En ID〕
+✐〔Gift〕
+✐〔Giftbycontact〕
+✐〔Gif gore〕
+✐〔Google: 〔T〕
+✐〔Playstore NamaApp〕
+✐〔Fancytext T〕
+✐〔musik J-Penyanyi〕
+✐〔lirik J-Penyanyi〕
+✐〔musrik J-Penyanyi〕
+✐〔ig 〔UsrNameIG〕
+✐〔Checkig 〔UsrIG〕
+✐〔apakah 〔T〕
+✐〔kapan 〔T〕
+✐〔hari 〔T 〕
+✐〔berapa〔 T 〕
+✐〔berapakah 〔T〕
+❦ ═══ •⊰❂⊱• ═══ ❦"""
 
-groupMessage ="""
-╔═匚◯爪爪丹几刀 ム尺∪ㄗ ═══
-╠═══════════════
-┣⏩〔Welcome〕
-┣⏩〔Say welcome〕
-┣⏩〔Invite creator〕
-┣⏩〔Cctv〕
-┣⏩〔Ciduk〕
-┣⏩〔Gn:〔NG〕
-┣⏩〔Tag all〕
-┣⏩〔lurk on/off〕
-┣⏩〔lurkers〕
-┣⏩〔Recover〕
-┣⏩〔Cancel〕
-┣⏩〔Cancelall〕
-┣⏩〔Gcreator〕
-┣⏩〔Ginfo〕
-┣⏩〔Gurl〕
-┣⏩〔List group〕
-┣⏩〔Pict group:〔NG〕
-┣⏩〔Spam: 〔T〕
-┣⏩〔Add all〕
-┣⏩〔Kick: (Mid)〕
-┣⏩〔Invite: (Mid)〕
-┣⏩〔Invite〕
-┣⏩〔Memlist〕
-┣⏩〔Getgroup image〕
-┣⏩〔Urlgroup Image〕
-╠══════════════
-║      By : 丅モ丹爪 Ｊ丹爪ち 
-╚══════════════"""
+groupMessage ="""   COMMAND GROUP
+≪━─━─◈─━─━≫
+✐〔Welcome〕
+✐〔Say welcome〕
+✐〔Invite creator〕
+✐〔Cctv〕
+✐〔Ciduk〕
+✐〔Gn:〔NG〕
+✐〔Tagall〕
+✐〔lurk on/off〕
+✐〔lurkers〕
+✐〔Recover〕
+✐〔Cancel〕
+✐〔Cancelall〕
+✐〔Gcreator〕
+✐〔Ginfo〕
+✐〔Gurl〕
+✐〔List group〕
+✐〔Pict group:〔NG〕
+✐〔Spam: 〔T〕
+✐〔Add all〕
+✐〔Kick: (Mid)〕
+✐〔Invite: (Mid)〕
+✐〔Invite〕
+✐〔Memlist〕
+✐〔Gcreator:inv〕
+✐〔Gcreator:kick〕
+✐〔Getgroup image〕
+✐〔Urlgroup Image〕
+❦ ═══ •⊰❂⊱• ═══ ❦"""
+
 Jams="uc66a26f635ba47a1e95174652660585f"
 
-setMessage ="""
-╔═ちモ丅 ══════════
-╠══════════════
-┣⏩〔Notif on/off〕
-┣⏩〔Mimic on/off〕
-┣⏩〔Url on/off〕
-┣⏩〔Read on/off〕
-┣⏩〔Sider on/off〕
-┣⏩〔K on/off〕
-┣⏩〔Sticker on/off〕
-┣⏩〔Simi on/off〕
-┣⏩〔lurk on/off〕
-┣⏩〔Bot on/off 〕
-╠══════════════
-║      By : 丅モ丹爪 Ｊ丹爪ち 
-╚══════════════"""
+setMessage =""" COMMAND SETTINGs
+≪━─━─◈─━─━≫
+✐〔Allprotect on/off〕
+✐〔Qr on/off〕
+✐〔Autokick on/off〕
+✐〔Autocancel on/off〕
+✐〔Invitepro on/off〕
+✐〔Join on/off〕
+✐〔Joincancel on/off〕
+✐〔R1 on/off〕
+✐〔R2 on/off〕
+✐〔R3 on/off〕
+✐〔Rkick on/off〕
+✐〔Notif on/off〕
+✐〔Mimic on/off〕
+✐〔Url on/off〕
+✐〔Read on/off〕
+✐〔Sider on/off〕
+✐〔K on/off〕
+✐〔Sticker on/off〕
+✐〔Simi on/off〕
+✐〔lurk on/off〕
+✐〔Bot on/off 〕
+❦ ═══ •⊰❂⊱• ═══ ❦"""
 
-creatorMessage ="""
-╔═匚尺モ丹丅◯尺══════
-╠══════════════
-┣⏩〔Crash〕
-┣⏩〔Kickall〕
-┣⏩〔Bc: 〔T〕
-┣⏩〔Join group: 〔NG〕
-┣⏩〔Leave group: 〔NG〕
-┣⏩〔Leave all group〕
-┣⏩〔Tag on/off〕
-┣⏩〔Bot restart〕
-┣⏩〔Turn off〕
-╠══════════════
-║      By : 丅モ丹爪 Ｊ丹爪ち 
-╚══════════════"""
+creatorMessage ="""  CREATOR
+≪━─━─◈─━─━≫
+✐〔Crash〕
+✐〔Kickall〕
+✐〔Bc: 〔T〕
+✐〔Join group: 〔NG〕
+✐〔Leave group: 〔NG〕
+✐〔Leave all group〕
+✐〔Tag on/off〕
+✐〔Bot restart〕
+✐〔Turn off〕
+❦ ═══ •⊰❂⊱• ═══ ❦"""
 
-adminMessage ="""
-╔═丹刀爪工几 ═════════
-╠═══════════════
-┣⏩〔Allprotect on/off〕
-┣⏩〔Ban〕
-┣⏩〔Unban〕
-┣⏩〔Ban @〕
-┣⏩〔Unban @〕
-┣⏩〔Ban list〕
-┣⏩〔Clear ban〕
-┣⏩〔Kill〕
-┣⏩〔Kick @〕
-┣⏩〔Set member: (Jml)〕
-┣⏩〔Ban group: 〔NG〕
-┣⏩〔Del ban: 〔NG〕
-┣⏩〔List ban〕
-┣⏩〔Kill ban〕
-┣⏩〔Glist〕
-┣⏩〔Glistmid〕
-┣⏩〔Details group: 〔〔(Gid)〕
-┣⏩〔Cancel invite: 〔(Gid)〕
-┣⏩〔Invitemeto: 〔(Gid)〕
-┣⏩〔Acc invite〕
-┣⏩〔Removechat〕
-┣⏩〔Qr on/off〕
-┣⏩〔Autokick on/off〕
-┣⏩〔Autocancel on/off〕
-┣⏩〔Invitepro on/off〕
-┣⏩〔Join on/off〕
-┣⏩〔Joincancel on/off〕
-┣⏩〔R1 on/off〕
-┣⏩〔R2 on/off〕
-┣⏩〔R3 on/off〕
-┣⏩〔Rkick on/off〕
-╠══════════════
-║      By : 丅モ丹爪 Ｊ丹爪ち 
-╚══════════════"""
+adminMessage ="""    ADMIN
+≪━─━─◈─━─━≫
+✐〔Ban〕
+✐〔Unban〕
+✐〔Ban @〕
+✐〔Unban @〕
+✐〔Ban list〕
+✐〔Clear ban〕
+✐〔Kill〕
+✐〔Kick @〕
+✐〔Set member: (Jml)〕
+✐〔Ban group: 〔NG〕
+✐〔Del ban: 〔NG〕
+✐〔List ban〕
+✐〔Kill ban〕
+✐〔Glist〕
+✐〔Glistmid〕
+✐〔Details group: 〔〔(Gid)〕
+✐〔Cancel invite: 〔(Gid)〕
+✐〔Invitemeto: 〔(Gid)〕
+✐〔Acc invite〕
+✐〔Removechat〕
+❦ ═══ •⊰❂⊱• ═══ ❦"""
 
-helpMessage ="""
-╔═卄モしㄗ ═════════
-╠══════════════
-┣⏩〔Help self〕
-┣⏩〔Help bot〕
-┣⏩〔Help group〕
-┣⏩〔Help set〕
-┣⏩〔Help media〕
-┣⏩〔Help admin〕
-┣⏩〔Help creator〕
-┣⏩〔Owner〕
-┣⏩〔Speed〕
-┣⏩〔Speed test〕
-┣⏩〔Status〕
-┣⏩〔Team〕
-╠══════════════
-║     By : 丅モ丹爪 Ｊ丹爪ち 
-╚══════════════"""
+helpMessage ="""     HELP 
+≪━─━─◈─━─━≫
+➀〔Help self〕
+➁〔Help bot〕
+③〔Help group〕
+➃〔Help set〕
+⑤〔Help media〕
+⑥〔Help admin〕
+➆〔Help creator〕
+➇〔Owner〕
+⑨〔Speed〕
+⑩〔Status〕
+❦ ═══ •⊰❂⊱• ═══ ❦"""
 
 
 KAC=[jams]
@@ -577,15 +553,15 @@ def bot(op):
                                 if " " in Name:
                                     nick = Name.split(' ')
                                     if len(nick) == 2:
-                                        jams.sendText(op.param1, "Waduh Ada"+ "╩╦"+ Name + "╦╩"+"\nLagi Ngintip\nSini Ikutan Chat Bos Jangan Ngintip Mulu(-__-)")
+                                        jams.sendText(op.param1, "Waduh Ada "+ " ╩╦ "+ Name + " ╦╩"+"\nLagi Ngintip\nSini Ikutan Chat Bos Jangan Ngintip Mulu(-__-)")
                                         time.sleep(0.2)
                                         summon(op.param1,[op.param2])
                                     else:
-                                        jams.sendText(op.param1, "Hallo" +"╩╦"+ Name +"╦╩" +"\nNgapain Ngintip??Sini Ikutan Chat Sama Kita(-__-)")
+                                        jams.sendText(op.param1, "Hallo " +" ╩╦ "+ Name +" ╦╩" +"\nNgapain Ngintip??Sini Ikutan Chat Sama Kita(-__-)")
                                         time.sleep(0.2)
                                         summon(op.param1,[op.param2])
                                 else:
-                                    jams.sendText(op.param1, "Nahhhh loe" +"╩╦"+ Name +"╦╩" + "\nNgapain Ngintip??Kagak Ada Janda Atau Bujang Disini\nSana Cari Di Room Laen")
+                                    jams.sendText(op.param1, "Nahhhh loe " +" ╩╦ "+ Name +" ╦╩" + "\nNgapain Ngintip??Kagak Ada Janda Atau Bujang Disini\nSana Cari Di Room Laen")
                                     time.sleep(0.2)
                                     summon(op.param1,[op.param2])
                         else:
@@ -776,13 +752,10 @@ def bot(op):
         if op.type == 11:
             if wait["Qr"] == True:
 		if op.param2 in Creator:
-		 if op.param2 in admin:
-		  if op.param2 in Bots:
-		   pass		
-		else:
-                    jams.kickoutFromGroup(op.param1,[op.param2])
-            else:
-                pass
+		   G = jams.getGroup(op.param1)
+                   G.preventJoinByTicket = True
+                   jams.kickoutFromGroup(op.param1,[op.param2])
+                   jams.updateGroup(G)
 
 
         if op.type == 17:
@@ -792,7 +765,7 @@ def bot(op):
             ginfo = jams.getGroup(op.param1)
             contact = jams.getContact(op.param2)
             image = "http://dl.profile.line-cdn.net/" + contact.pictureStatus
-            jams.sendText(op.param1,"Assalamualaikum.wr.wb" + jams.getContact(op.param2).displayName + "\nSELAMAT DATANG DI ✴ " + str(ginfo.name) + " ✴" + "\nBudayakan Cek Note\nDan Semoga Betah Disini ^_^")
+            jams.sendText(op.param1,"Assalamualaikum.wr.wb" + jams.getContact(op.param2).displayName + "\nSELAMAT DATANG DI ⛣ " + str(ginfo.name) + "⛣" + "\nBudayakan Cek Note\nDan Semoga Betah Disini ^_^")
             c = Message(to=op.param1, from_=None, text=None, contentType=13)
             c.contentMetadata={'mid':op.param2}
             jams.sendMessage(c)  
@@ -873,12 +846,14 @@ def bot(op):
                     cName = contact.displayName
                     balas = [ "Sekali lagi ngetag gw sumpahin Jempol Loe Kutilan!!","Nggak Usah Tag-Tag! Gue Tau Loe Kangen Berat Ke Gue","Woii " + cName + " Jangan Ngetag, Lagi Enak Anu Nih!"  ]
                     ret_ = random.choice(balas)
+		    image = "http://dl.profile.line-cdn.net/" + contact.pictureStatus
                     name = re.findall(r'@(\w+)', msg.text)
                     mention = ast.literal_eval(msg.contentMetadata['MENTION'])
                     mentionees = mention['MENTIONEES']
                     for mention in mentionees:
                            if mention['M'] in Bots:
                                   jams.sendText(msg.to,ret_)
+				  jams.sendImageWithURL(msg.to,image)
                                   msg.contentType = 7   
                                   msg.text = None
                                   msg.contentMetadata = {
@@ -949,6 +924,7 @@ def bot(op):
             if msg.contentType == 16:
                      url = msg.contentMetadata["postEndUrl"]
                      jams.like(url[25:58], url[66:], likeType=1001)
+                     jams.sendText(msg.to,"『⊰์◉⊱Like Sukses⊰์◉⊱』")
                      jams.comment(url[25:58], url[66:], wait["comment"])
                      jams.comment(url[25:58], url[66:], wait["comment1"])
                      jams.comment(url[25:58], url[66:], wait["comment2"])
@@ -956,8 +932,7 @@ def bot(op):
                      jams.comment(url[25:58], url[66:], wait["comment4"])
                      jams.comment(url[25:58], url[66:], wait["comment5"])
                      jams.comment(url[25:58], url[66:], wait["comment6"])
-                     jams.comment(url[25:58], url[66:], wait["comment7"])
-                     jams.sendText(msg.to,"『⊰์◉⊱Like Sukses⊰์◉⊱』")                     
+                     jams.comment(url[25:58], url[66:], wait["comment7"])                     
                      
 
 #--------------------------------------------------------------
@@ -1044,7 +1019,7 @@ def bot(op):
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': Jams}
                 jams.sendMessage(msg)
-		jams.sendText(msg.to,"Itu Majikan Kami (^_^)")
+		jams.sendText(msg.to,"Itu Owner Kami (^_^)")
 
  
 
@@ -1394,14 +1369,14 @@ def bot(op):
                     wait["detectMention2"] = False
                     wait["detectMention3"] = False
                     wait["kickMention"] = False
-                    jams.sendText(msg.to,"Auto R1 Sudah Aktif")
+                    jams.sendText(msg.to,"R1 Sudah Aktif")
 		else:
 		    jams.sendText(msg.to,"Khusus Admin")
 
             elif msg.text in ["R1 off"]:
 		if msg.from_ in admin:
                     wait["detectMention"] = False
-                    jams.sendText(msg.to,"Auto R1 Sudah Off")
+                    jams.sendText(msg.to,"R1 Sudah Off")
 		else:
 		    jams.sendText(msg.to,"Khusus Admin")	
 		    
@@ -1412,13 +1387,13 @@ def bot(op):
                     wait["detectMention2"] = True
                     wait["detectMention3"] = False
                     wait["kickMention"] = False
-                    jams.sendText(msg.to,"Auto R2 Sudah Aktif")
+                    jams.sendText(msg.to,"R2 Sudah Aktif")
 		else:
 		    jams.sendText(msg.to,"Khusus Admin")
             elif msg.text in ["R2 off"]:
 		if msg.from_ in admin:
                     wait["detectMention2"] = False
-                    jams.sendText(msg.to,"Auto R2 Sudah Off")
+                    jams.sendText(msg.to,"R2 Sudah Off")
 		else:
 		    jams.sendText(msg.to,"Khusus Admin")	
 		    
@@ -1429,14 +1404,14 @@ def bot(op):
                     wait["detectMention2"] = False
                     wait["detectMention3"] = True
                     wait["kickMention"] = False
-                    jams.sendText(msg.to,"Auto R3 Sudah Aktif")
+                    jams.sendText(msg.to,"R3 Sudah Aktif")
 		else:
 		    jams.sendText(msg.to,"Khusus Admin")
 
             elif msg.text in ["R3 off"]:
 		if msg.from_ in admin:
                     wait["detectMention3"] = False
-                    jams.sendText(msg.to,"Auto R3 Sudah Off")
+                    jams.sendText(msg.to,"R3 Sudah Off")
 		else:
 		    jams.sendText(msg.to,"Khusus Admin")	
 		    
@@ -1526,13 +1501,13 @@ def bot(op):
             elif msg.text in ["Allprotect on"]:
 		if msg.from_ in admin:
                     wait["AutoCancel"] = True
-                    jams.sendText(msg.to,"AutoCancel Done")
+                    jams.sendText(msg.to,"AutoCancel 🔛")
                     wait["inviteprotect"] = True
-                    jams.sendText(msg.to,"InviteProtect yessss")
+                    jams.sendText(msg.to,"InviteProtect 🔛")
                     wait["AutoKick"] = True
-                    jams.sendText(msg.to,"AutoKick Yesssss")
+                    jams.sendText(msg.to,"AutoKick 🔛")
                     wait["Qr"] = True
-                    jams.sendText(msg.to,"ProtectQr Aman")
+                    jams.sendText(msg.to,"ProtectQr 🔛")
                     jams.sendText(msg.to,"Protect Sudah Aktif Semua")
 		else:
 		    jams.sendText(msg.to,"Khusus Admin")
@@ -1613,7 +1588,20 @@ def bot(op):
                 cctv['sidermem'][msg.to] = ""
                 cctv['cyduk'][msg.to]=True
                 wait["Sider"] = True
-                jams.sendText(msg.to,"Siap Lempar Bata Si Tukang Ngintip")
+                timeNow = datetime.now()
+                timeHours = datetime.strftime(timeNow,"(%H:%M)")
+                day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday","Friday", "Saturday"]
+                hari = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"]
+                bulan = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"]
+                inihari = datetime.today()
+                hr = inihari.strftime('%A')
+                bln = inihari.strftime('%m')
+                for i in range(len(day)):
+                    if hr == day[i]: hasil = hari[i]
+                for k in range(0, len(bulan)):
+                    if bln == str(k): bln = bulan[k-1]
+                rst = hasil + ", " + inihari.strftime('%d') + " - " + bln + " - " + inihari.strftime('%Y') + "\nJam : [ " + inihari.strftime('%H:%M:%S') + " ]"
+                jams.sendText(msg.to,"      「 Sider 」\n  Berhasil di Aktifkan\n\n"+rst)
                 
             elif "Read off" in msg.text:
                 if msg.to in cctv['point']:
@@ -1626,37 +1614,37 @@ def bot(op):
 
             elif msg.text in ["Settings","Status"]:
                 md = ""
-		if wait["Notif"] == True: md+="┣⏩✔️ Notif : On\n"
-		else:md+="┣⏩✖ Notif : Off\n"
-		if wait["AutoJoin"] == True: md+="┣⏩✔️ Auto Join : On\n"
-                else: md +="┣⏩✖ Auto Join : Off\n"
-		if wait["AutoJoinCancel"] == True: md+="┣⏩✔️ Auto Join Cancel : On\n"
-                else: md +="┣⏩✖ Auto Join Cancel : Off\n"                
-		if wait["Contact"] == True: md+="┣⏩✔️ Info Contact : On\n"
-		else: md+="┣⏩✖ Info Contact : Off\n"
-                if wait["AutoCancel"] == True:md+="┣⏩✔️ Auto Cancel : On\n"
-                else: md+= "┣⏩✖ Auto Cancel : Off\n"
-                if wait["inviteprotect"] == True:md+="┣⏩✔️ Invite Protect : On\n"
-                else: md+= "┣⏩✖ Invite Protect : Off\n"                
-		if wait["Qr"] == True: md+="┣⏩✔️ Qr Protect : On\n"
-		else:md+="┣⏩✖ Qr Protect : Off\n"
-		if wait["AutoKick"] == True: md+="┣⏩✔️ Auto Kick : On\n"
-		else:md+="┣⏩✖ Auto Kick : Off\n"
-		if wait["alwaysRead"] == True: md+="┣⏩✔️ Always Read : On\n"
-		else:md+="┣⏩✖ Always Read: Off\n"
-		if wait["detectMention"] == True: md+="┣⏩✔️ Auto R1 : On\n"
-		else:md+="┣⏩✖ Auto R1 : Off\n"		
-		if wait["detectMention2"] == True: md+="┣⏩✔️ Auto R2 : On\n"
-		else:md+="┣⏩✖ Auto R2 : Off\n"	
-		if wait["detectMention3"] == True: md+="┣⏩✔️ Auto R3 : On\n"
-		else:md+="┣⏩✖ Auto R3 : Off\n"			
-		if wait["kickMention"] == True: md+="┣⏩✔️ Auto R Kick : On\n"
-		else:md+="┣⏩✖ Auto R Kick : Off\n"				
-		if wait["Sider"] == True: md+="┣⏩✔️ Auto Sider : On\n"
-		else:md+="┣⏩✖ Auto Sider: Off\n"	
-		if wait["Simi"] == True: md+="┣⏩✔️ Simisimi : On\n"
-		else:md+="┣⏩✖ Simisimi: Off\n"		
-                jams.sendText(msg.to,"╭━━━━━━━━━━━━━━━━━━━━\n" "             丅モ丹爪 Ｊ丹爪ち\n" "│━━━━━━━━━━━━━━━━━━━━\n"+md+"╰━━━━━━━━━━━━━━━━━━━━")
+		if wait["Notif"] == True: md+="🔛✔️ Notif : On\n"
+		else:md+="🔚❌ Notif : Off\n"
+		if wait["AutoJoin"] == True: md+="🔛✔️ Auto Join : On\n"
+                else: md +="🔚❌ Auto Join : Off\n"
+		if wait["AutoJoinCancel"] == True: md+="🔛✔️ Auto Join Cancel : On\n"
+                else: md +="🔚❌ Auto Join Cancel : Off\n"                
+		if wait["Contact"] == True: md+="🔛✔️ Info Contact : On\n"
+		else: md+="🔚❌ Info Contact : Off\n"
+                if wait["AutoCancel"] == True:md+="🔛✔️ Auto Cancel : On\n"
+                else: md+= "🔚❌ Auto Cancel : Off\n"
+                if wait["inviteprotect"] == True:md+="🔛✔️ Invite Protect : On\n"
+                else: md+= "🔚❌ Invite Protect : Off\n"                
+		if wait["Qr"] == True: md+="🔛✔️ Qr Protect : On\n"
+		else:md+="🔚❌ Qr Protect : Off\n"
+		if wait["AutoKick"] == True: md+="🔛✔️ Auto Kick : On\n"
+		else:md+="🔚❌ Auto Kick : Off\n"
+		if wait["alwaysRead"] == True: md+="🔛✔️ Always Read : On\n"
+		else:md+="🔚❌ Always Read: Off\n"
+		if wait["detectMention"] == True: md+="🔛✔️ Auto R1 : On\n"
+		else:md+="🔚❌ Auto R1 : Off\n"		
+		if wait["detectMention2"] == True: md+="🔛✔️ Auto R2 : On\n"
+		else:md+="🔚❌ Auto R2 : Off\n"	
+		if wait["detectMention3"] == True: md+="🔛✔️ Auto R3 : On\n"
+		else:md+="🔚❌ Auto R3 : Off\n"			
+		if wait["kickMention"] == True: md+="🔛✔️ Auto R Kick : On\n"
+		else:md+="🔚❌ Auto R Kick : Off\n"				
+		if wait["Sider"] == True: md+="🔛✔️ Auto Sider : On\n"
+		else:md+="🔚❌ Auto Sider: Off\n"	
+		if wait["Simi"] == True: md+="🔛✔️ Simisimi : On\n"
+		else:md+="🔚❌ Simisimi: Off\n"		
+                jams.sendText(msg.to,"    STATUS\n" "≪━─━─◈─━─━≫\n"+md+"❦ ═══ •⊰❂⊱• ═══ ❦")
 
 
             elif msg.text in ["Gift","gift"]:
@@ -2130,7 +2118,7 @@ def bot(op):
                 jams.sendMessage(msg)
                 
 
-            elif "sayang" == msg.text.lower():
+            elif "🤣🤣" == msg.text.lower():
                  group = jams.getGroup(msg.to)
                  nama = [contact.mid for contact in group.members]
                  nm1, nm2, nm3, nm4, nm5, jml = [], [], [], [], [], len(nama)
@@ -2251,7 +2239,7 @@ def bot(op):
 
             elif msg.text in ["Setview","Setpoint","Cctv"]:
                 subprocess.Popen("echo '' > dataSeen/"+msg.to+".txt", shell=True, stdout=subprocess.PIPE)
-                jams.sendText(msg.to, "♠Checkpoint Checked♠")
+                jams.sendText(msg.to, "🎥Checkpoint Checked🎥")
                 print "Setview"
 
             elif msg.text in ["Viewseen","Check","Ciduk","Cyduk"]:
@@ -2379,7 +2367,7 @@ def bot(op):
                 jams.inviteIntoGroup(msg.to,[midd])
 
             elif "Invite creator" in msg.text:
-                midd = "uc889c1f8f74274f117e0a0d69ccc559c"
+                midd = "uc66a26f635ba47a1e95174652660585f"
                 jams.inviteIntoGroup(msg.to,[midd])
 
             elif msg.text in ["Welcome","welcome","Welkam","welkam","Wc","wc"]:
@@ -2397,7 +2385,7 @@ def bot(op):
 		gid = jams.getGroupIdsJoined()
 		if msg.from_ in Creator:
 		    for i in gid:
-			jams.sendText(i,"=======[BROADCAST]=======\n\n"+bc+"\n\nContact Me : line.me/ti/p/ricco1311")
+			jams.sendText(i,""+bc)
 		    jams.sendText(msg.to,"Success BC BosQ")
 		else:
 		    jams.sendText(msg.to,"Khusus Admin")
@@ -2624,7 +2612,7 @@ def bot(op):
                        if _nametarget == g.displayName:
                            targets.append(g.mid)
                    if targets == []:
-                       jams.sendText(msg.to, "Not Found...")
+                       jams.sendText(msg.to,)
                    else:
                        for target in targets:
                             try:
@@ -2777,11 +2765,29 @@ def bot(op):
  
             elif "Spam: " in msg.text:
                   bctxt = msg.text.replace("Spam: ", "")
-                  t = 10
+                  t = 100
                   while(t):
                     jams.sendText(msg.to, (bctxt))
                     t-=1
-
+			
+            elif "Spam " in msg.text:
+                txt = msg.text.split(" ")
+                jmlh = int(txt[2])
+                teks = msg.text.replace("Spam "+str(txt[1])+" "+str(jmlh)+" ","")
+                tulisan = jmlh * (teks+"\n")
+                #Vicky Kull~
+                if txt[1] == "on":
+                    if jmlh <= 100000:
+                       for x in range(jmlh):
+                           jams.sendText(msg.to, teks)
+                    else:
+                       jams.sendText(msg.to, "Out of Range!")
+                elif txt[1] == "off":
+                    if jmlh <= 100000:
+                        jams.sendText(msg.to, tulisan)
+                    else:
+                        jams.sendText(msg.to, "Out Of Range!")
+			
             elif "Scbc " in msg.text:
                   bctxt = msg.text.replace("Scbc ", "")
                   orang = jams.getAllContactIds()
@@ -3054,18 +3060,19 @@ def bot(op):
                    msg.contentType = 13
                    fams1 = "u8e137cf39c2ac9c2edc77f13ed54802c"
                    fams2 = "u54b576051eb45e797ed1f806dd9e1842"
-		   fams3 = "u3c8dd4869088bac2fda271748636aef6"
+	       fams3 = "u3c8dd4869088bac2fda271748636aef6"
                    fams4 = "uc23b845bba3d0c019255a956c74efb60"
                    fams5 = "ucec030bce3ab475e3920e1e763ad14aa"
                    fams6 = "uf41f0195d94a4775e3c476bd1c36cb90"
-		   fams7 = "u5cab77f6759997a250f935e9cbb6e959"
+	       fams7 = "u5cab77f6759997a250f935e9cbb6e959"
+	       fams8 = "ue080f4ed31d1dfd53660656341cd29a6"
                    msg.contentMetadata = {'mid': Jams}
                    random.choice(KAC).sendMessage(msg)
                    msg.contentMetadata = {'mid': fams1}
                    random.choice(KAC).sendMessage(msg)
                    msg.contentMetadata = {'mid': fams2}
                    random.choice(KAC).sendMessage(msg)
-		   msg.contentMetadata = {'mid': fams3}
+	       msg.contentMetadata = {'mid': fams3}
                    random.choice(KAC).sendMessage(msg)
                    msg.contentMetadata = {'mid': fams4}
                    random.choice(KAC).sendMessage(msg)
@@ -3075,7 +3082,9 @@ def bot(op):
                    random.choice(KAC).sendMessage(msg)
                    msg.contentMetadata = {'mid': fams7}
                    random.choice(KAC).sendMessage(msg)
-		   random.choice(KAC).sendText(msg.to,"♅LOE SONGONG BERARTI LOE SIAP ANCUR♅")
+                   msg.contentMetadata = {'mid': fams8}
+                   random.choice(KAC).sendMessage(msg)
+	       random.choice(KAC).sendText(msg.to,"♐LOE SONGONG BERARTI LOE SIAP ANCUR🖕🖕")
 		
             elif "apakah " in msg.text:
                 apk = msg.text.replace("apakah ","")
@@ -3393,15 +3402,15 @@ def bot(op):
                 jams.sendText(msg.to, rst)                
                  
                 
-            elif "SearchID " in msg.text:
-                userid = msg.text.replace("SearchID ","")
+            elif "ID " in msg.text:
+                userid = msg.text.replace("ID ","")
                 contact = jams.findContactsByUserid(userid)
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': contact.mid}
                 jams.sendMessage(msg)
                 
-            elif "Searchid " in msg.text:
-                userid = msg.text.replace("Searchid ","")
+            elif "Id " in msg.text:
+                userid = msg.text.replace("Id ","")
                 contact = jams.findContactsByUserid(userid)
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': contact.mid}
@@ -3431,7 +3440,28 @@ def bot(op):
                         except:
                             jams.sendText(msg.to,"Mungkin Saya Tidak Di Dalaam Grup Itu")
 
+            elif msg.text in ["Gcreator:inv"]:
+	           if msg.from_ in admin:
+                    ginfo = jams.getGroup(msg.to)
+                    gCreator = ginfo.creator.mid
+                    try:
+                       jams.findAndAddContactsByMid(gCreator)
+                       jams.inviteIntoGroup(msg.to,[gCreator])
+                       print "success inv gCreator"
+                    except:
+                       pass
 
+            elif msg.text in ["Gcreator:kick"]:
+	           if msg.from_ in admin:
+                    ginfo = jams.getGroup(msg.to)
+                    gCreator = ginfo.creator.mid
+                    try:
+                       jams.findAndAddContactsByMid(gCreator)
+                       jams.kickoutFromGroup(msg.to,[gCreator])
+                       print "success inv gCreator"
+                    except:
+                       pass
+	
             elif msg.text in ["Glist"]:
                 jams.sendText(msg.to, "Tunggu Sebentar. . .")                    
                 gid = jams.getGroupIdsJoined()
